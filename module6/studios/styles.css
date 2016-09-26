@@ -1,0 +1,13 @@
+/* styles.css */
+
+.header {
+    background: blue;
+    text-align: center;
+    padding: 50px;
+}
+
+.form-container {
+    background: #EBEBEB;
+    padding: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <div class="header">
+            <h1>LunchCode</h1>
+            <h2>Find out what's cooking at Harvard by interacting with CS50's Food API</h2>
+        </div>
+    </head>
+    <body>
+        <div class="form-container">
+            <h3>Nutrition Facts</h3>
+            <form action="http://api.cs50.net/food/3/facts" method="get">
+                <label>Recipe:</label>
+                <input type="hidden" name="key" value="b783adc8fb3364282bdfe920c925ce75"/>
+                <input type="text" name="recipe"/>
+                <label>Portion:</label>
+                <input type="number" name="portion"/>
+                <input type="hidden" name="output" value="json"/>
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+        <div class="form-container">    
+            <h3>Menus</h3>
+            <form action="http://api.cs50.net/food/3/menus" method="get">
+                <label>Meal:</label>
+                <input type="hidden" name="key" value="b783adc8fb3364282bdfe920c925ce75"/>
+                <input type="text" name="Meal"/>
+                <input type="hidden" name="output" value="json"/>
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+        <div class="form-container">
+            <h3>Recipes</h3>
+            <form action="http://api.cs50.net/food/3/recipes" method="get">
+                <label>ID #:</label>
+                <input type="hidden" name="key" value="b783adc8fb3364282bdfe920c925ce75"/>
+                <input type="text" name="id"/>
+                <input type="hidden" name="output" value="json"/>
+                <input type="submit" value="SEND REQUEST"/>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. 3X3, 4X4, 5X5, 6X6, 7X7, 8X8, 9X9
+1. Stacked Array
+2. greet
+3. init, draw, move, won
